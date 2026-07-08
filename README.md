@@ -2,8 +2,7 @@
 DIY Control box Super Easy is based on Tasmota firmware and a bunch of sensor and relay for control mushroom grow box or monotube. 
 Thanks to the amazing open-source project [Tasmota](https://github.com/arendst/tasmota), it is incredibly easy to connect sensors to an ESP8266 or ESP32 and control them using Tasmota rules.
 
-###
- Features
+### Features
 - **Environmental Monitoring:** Track internal box temperature, humidity, and $CO_2$ levels.
 - **External Tracking:** Monitor outdoor/ambient temperature and humidity levels.
 - **Automated Humidification:** Activate the humidifier dynamically based on internal humidity thresholds.
