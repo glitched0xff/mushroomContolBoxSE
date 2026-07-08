@@ -169,4 +169,6 @@ SetOption19 0
 
 Or you can configure mqtt topic by hand in configuration.yaml
 
+
+
 ... stay tuned ... 
