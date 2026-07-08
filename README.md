@@ -1,2 +1,3 @@
-# mushroomContolBoxSE
-Super easy crontrol box for mushroom grow box with Tasmota and 4 realy, t/h DHT22, Co2 SCD41
+# Mushroom Control Box SE
+Super crontrol box Super Easy is based on Tasmota firmware and a bunch of sensor and relay.
+With amazing open source project Tasmota (https://github.com/arendst/tasmota)
