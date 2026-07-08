@@ -118,6 +118,18 @@ To enable the rule, run this command in the Tasmota console:
 Rule1 1
 ```
 
+### Humidity Control (Relay 1)
+This rule automatically turns on air extractor (Relay 2) when the carbon dioxide (Co2) is above 800ppm and when temperature is above 22 °C:
+
+```tasmota
+Rule1 ON SCD41#Humidity<85 DO If (Power1==0) Power1 1 EndIf ENDON ON SCD41#Humidity>90 DO If (Power1==1) Power1 0 EndIf ENDON
+```
+
+To enable the rule, run this command in the Tasmota console:
+```tasmota
+Rule2 1
+```
+
 ## Timer Configuration
 
 Tasmota allows you to set up to 16 independent timers to automate your relays based on time, sunrise, or sunset. For this to work, ensure your NodeMCU is connected to Wi-Fi so it can sync its internal clock via NTP.
