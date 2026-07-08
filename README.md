@@ -2,7 +2,8 @@
 DIY Control box Super Easy is based on Tasmota firmware and a bunch of sensor and relay for control mushroom grow box or monotube. 
 Thanks to the amazing open-source project [Tasmota](https://github.com/arendst/tasmota), it is incredibly easy to connect sensors to an ESP8266 or ESP32 and control them using Tasmota rules.
 
-## Features
+###
+ Features
 - **Environmental Monitoring:** Track internal box temperature, humidity, and $CO_2$ levels.
 - **External Tracking:** Monitor outdoor/ambient temperature and humidity levels.
 - **Automated Humidification:** Activate the humidifier dynamically based on internal humidity thresholds.
@@ -10,12 +11,12 @@ Thanks to the amazing open-source project [Tasmota](https://github.com/arendst/t
 - **Climate Regulation:** Control heating panels or cooling systems to maintain steady conditions.
 - **Automated Lighting:** Turn grow lights on and off using a built-in timer.
 
-## Use Cases
+### Use Cases
 - **Monotubs:** Automated control for specialized mushroom cultivation.
 - **Grow Boxes / Tents:** Ideal for managing environments for both mushrooms and plants/flowers.
 - **Room Climate Control:** Scalable for general ambient and environmental room monitoring.
 
-### Why Tasmota?
+## Why Tasmota?
 Tasmota is an open-source alternative firmware designed for ESP8266 and ESP32-based devices. Originally created to replace the stock software on Sonoff products, it has evolved into a universal solution for smart home automation. It localizes device control, completely removing dependency on proprietary cloud servers.
 
 **Key Advantages:**
@@ -33,6 +34,7 @@ Additionally, when connected to Wi-Fi, the device syncs its internal clock, allo
 Tasmota features a built-in web server and an MQTT client to transmit sensor data across your network. This makes it highly compatible with home automation systems, allowing you to:
 * View real-time data in **Home Assistant** or **OpenHAB**.
 * Store historical data for future research and analysis.
+
 ## Hardware Components
 
 * **DHT22 Temperature & Humidity Sensor**
@@ -100,13 +102,6 @@ Once flashed, configure the GPIO pins using the Tasmota web interface or apply t
 | **D7** | GPIO13 | `Relay (3)` | Relay 3 Control |
 | **D8** | GPIO15 | `Relay (4)` | Relay 4 Control |
 
-### Tasmota Template
-
-Go to **Configuration -> Configure Other** and paste the following string into the **Template** field (make sure to check the **Activate** box):
-
-```json
-{"NAME":"GrowMush","ARCH":"ESP8266","GPIO":[224,1,1,1,640,608,1,1,225,226,1216,227,1,1],"FLAG":0,"BASE":18}
-```
 
 ## Automation Rules
 
