@@ -15,12 +15,19 @@ Tasmota features a built-in web server and an MQTT client to transmit sensor dat
 ## Hardware Components
 
 * **DHT22 Temperature & Humidity Sensor**
+
   ![DHT22 Sensor](pict/DHT22-Sensor.jpg)
+
 * **SCD41 $CO_2$, Temperature & Humidity Sensor**
+  
   ![SCD41 Sensor](pict/SCD41-Sensor-fuer-CO2-Temperatur-und-Luftfeuchtigkeit.png)
+
 * **ESP8266 NodeMCU Development Board**
+
   ![NodeMCU](pict/images.jpeg)
+
 * **4-Channel 5V Relay Board**
+
   ![4-Channel Relay Module](pict/Four-Channel-Relay-Module-Pinout.jpg)
 
 ## Wiring & Connections
