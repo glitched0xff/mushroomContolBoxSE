@@ -1,5 +1,5 @@
 # DIY Mushroom Control Box SE
-Super crontrol box Super Easy is based on Tasmota firmware and a bunch of sensor and relay.
+DIY Super crontrol box Super Easy is based on Tasmota firmware and a bunch of sensor and relay.
 
 Thanks to the amazing open-source project [Tasmota](https://github.com/arendst/tasmota), it is incredibly easy to connect sensors to an ESP8266 or ESP32 and control them using Tasmota rules.
 
@@ -161,3 +161,5 @@ SetOption19 0
 3. If not, click **Add Integration**, search for **Tasmota**, and add it. All entities (relays, temperature, humidity, and $CO_2$) will be instantly available.
 
 Or you can configure mqtt topic by hand in configuration.yaml
+
+... stay tuned ... 
