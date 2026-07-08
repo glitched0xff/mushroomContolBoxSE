@@ -170,5 +170,6 @@ SetOption19 0
 Or you can configure mqtt topic by hand in configuration.yaml
 
 
+[Building first](Alpha.md)
 
 ... stay tuned ... 
